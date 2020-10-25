@@ -1,0 +1,173 @@
+.logo{
+    float:left;
+    height: 75px;
+    background-color: azure
+}
+.topimg{
+ width: 100%;
+ height: 30em
+}
+.heading2{
+    font-size: 2em;
+    text-indent: 1em;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.heading3{
+    text-indent: 1.25em;
+    padding: 0px;
+    margin: 0px;
+    
+}
+h1{
+    font-size: 125%;
+    font-family: monospace;
+}
+
+p{
+    font-size: 90%;
+    font-family: cursive;
+}
+
+h1:first-letter{
+        font-size: 200% ;
+}
+
+footer{
+    text-align: center;
+    font-size: 75%
+    
+}
+
+.type1{
+    box-shadow: 10px 10px 25px 5px black;
+    width: 95%;
+    border: 5px solid black;
+    margin: 25px auto;
+    background-color: white;
+}
+
+
+.type2{
+    width:auto;
+    padding: 30px;
+    border-bottom: 2px solid skyblue;
+    background-image: linear-gradient(45deg, rgba(255,255,255), rgba(0,191,255), rgba(0,128,255), rgba(0,0,0));
+    font-family: cursive;
+    
+}
+
+.type4{
+    background-image: linear-gradient(45deg, rgba(0,0,0), rgba(0,128,255), rgba(0,191,255), rgba(255,255,255));
+    width: auto;
+    padding: 20px;
+    border-top: 2px solid black;
+    clear: both;
+    font-family: serif;
+    font-style: oblique;
+}
+
+.type3{
+    width: auto;
+    padding: 1em;
+    clear: both;
+    float: left;
+    
+}
+
+.nav1 aside{
+    float: left;
+    width: 30%;
+    clear: right;
+    height: 100%;
+}
+
+.rightside{
+    float: right;
+    width: 20%;
+    clear: right;
+    height: 100%;
+    overflow-x: hidden;
+    margin-top: 0.5em;}
+
+.rightside>ul{
+    list-style-type: none;
+}
+
+.rightside, .nav1, li{
+    font-family: serif; 
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.rightside a {
+    color: cadetblue;
+    
+}
+
+.rightside a:hover{
+    color:black;
+}
+
+.nav1>aside a:hover{
+    color:lightyellow;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+.middle{
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.nav1 .current{
+    color: brown;
+}
+
+.nav1 ul{
+    list-style-type: none;
+    margin-bottom: 1em;
+    
+   
+}
+
+.nav1 ul li{
+    border-style: ridge;
+    margin-top: 0.5em;
+    width: 80%;
+    height: 30%;
+    background-color: skyblue;
+    
+    
+}
+.nav1 ul>li>a{
+    color: black;
+    padding: 0.5em 0.5em 1.5em;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+button{
+    margin-top: 30%;
+    font-size: 1.5em;
+    font-style: oblique;
+    background-color:cadetblue;
+}
+
+.middle .imgle{
+    width: 40%;
+    float: left;    
+}
+
+.middle .imgri{
+    width: 40%;
+    float: right;
+}
